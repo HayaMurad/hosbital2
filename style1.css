@@ -1,0 +1,556 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Catamaran", sans-serif;
+}
+
+.header {
+  margin: 0px 0px;
+  min-height: 100vh;
+
+  background: url(./imges/dots.png) center/cover no-repeat fixed;
+  position: relative;
+  box-shadow: 5px 5px 10px rgb(91, 85, 85);
+  animation: head 5s infinite;
+}
+@keyframes head {
+  0% {
+    transform: translateX(20px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  75% {
+    transform: translateX(-200px);
+  }
+  100% {
+    transform: translateX(20px);
+  }
+}
+
+.contact-item {
+  width: 100%;
+  height: 50px;
+  margin: -20px 1px;
+
+  background-color: white;
+}
+
+.banner {
+  position: absolute;
+  top: 19%;
+  left: 5%;
+}
+
+.banner img {
+  position: absolute;
+  left: 60%;
+  top: -20%;
+  float: right;
+}
+
+.paragraf {
+  text-align: left;
+  font-size: 30px;
+}
+.banner a {
+  position: absolute;
+  left: 20%;
+  top: 96%;
+}
+h1 {
+  font-size: 40px;
+  color: rgb(18, 124, 89);
+  text-transform: capitalize;
+}
+h3 {
+  color: black;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+.contact-item {
+  display: inline;
+  margin: 0px 1px;
+  padding: 0px 0px;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-item i {
+  font-size: 20px;
+  color: aquamarine;
+}
+.fa-solid1 {
+  position: absolute;
+  left: 785px;
+  top: 550px;
+
+  background-color: aquamarine;
+}
+
+.fa-solid1 i:hover {
+  color: aquamarine;
+}
+.fa-solid1 i:active {
+  color: rgb(6, 49, 49);
+}
+.fa-solid2 {
+  position: absolute;
+  left: 717px;
+  top: 550px;
+  background-color: aquamarine;
+}
+.fa-solid2 i:hover {
+  color: aquamarine;
+}
+.fa-solid2 i:active {
+  color: rgb(6, 49, 49);
+}
+
+.banner i {
+  color: white;
+  font-size: 60px;
+}
+.testimonial i {
+  color: white;
+  font-size: 60px;
+}
+.solid1 {
+  position: absolute;
+  left: 1262px;
+  top: 76px;
+  background-color: aquamarine;
+}
+.solid2 {
+  position: absolute;
+  left: -50px;
+  top: 76px;
+  background-color: aquamarine;
+}
+
+.solid2 i:hover {
+  color: aquamarine;
+}
+.solid2 i:active {
+  color: rgb(6, 49, 49);
+}
+
+.solid1 i:hover {
+  color: aquamarine;
+}
+.solid1 i:active {
+  color: rgb(6, 49, 49);
+}
+
+.banner1 i {
+  position: absolute;
+  left: 1%;
+  top: -35%;
+  right: 100%;
+  color: aquamarine;
+}
+.banner1 i:hover {
+  color: rgb(12, 49, 98);
+}
+.banner1 i:active {
+  color: rgb(6, 49, 49);
+}
+.book {
+  font-size: 20px;
+  width: 855px;
+  height: 359px;
+  margin: 51px 0px;
+  min-height: 40vh;
+  min-width: 40vh;
+  background: white;
+  position: absolute;
+  left: 25%;
+  top: 135%;
+  box-shadow: 1px 5px 19px rgb(91, 85, 85);
+  text-align: center;
+}
+
+input {
+  font-size: 20px;
+}
+.form-control1 {
+  position: absolute;
+  left: 20px;
+}
+.form-control2 {
+  position: absolute;
+  left: 294px;
+  top: 71px;
+}
+.form-control3 {
+  position: absolute;
+  left: 565px;
+  top: 71px;
+}
+.form-control4 {
+  position: absolute;
+  left: 565px;
+  top: 145px;
+}
+.form-control5 {
+  position: absolute;
+  left: 291px;
+  top: 145px;
+}
+.form-control6 {
+  position: absolute;
+  left: 94px;
+  top: 250px;
+}
+
+.form-control {
+  font-size: 30px;
+}
+.main-btn {
+  color: white;
+  background-color: black;
+  font-size: 20px;
+  padding: 10px 70px;
+  margin: 7px 20px;
+  text-transform: capitalize;
+}
+
+.link {
+  background-color: aquamarine;
+}
+.about {
+  position: absolute;
+  left: 90px;
+  top: 1500px;
+}
+.about img {
+  float: left;
+}
+.about h1 h3 {
+  float: right;
+}
+.about p a {
+  float: right;
+}
+.about a {
+  position: absolute;
+  top: 220px;
+}
+
+.treatment {
+  float: initial;
+  position: absolute;
+  left: 20px;
+  top: 1982px;
+}
+.treament-icon {
+  font-size: 40px;
+  color: aquamarine;
+}
+.treatment-title {
+  text-align: center;
+}
+
+.treament {
+  padding: 2.5rem 0;
+  text-align: center;
+  transition: none;
+  display: inline-block;
+}
+.treament-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: initial;
+  margin-bottom: 1.5rem;
+  color: aquamarine;
+  transition: none;
+}
+
+.treament-text {
+  max-width: 19rem;
+  margin: 0 auto;
+}
+.treament:hover {
+  background: rgb(14, 154, 159);
+}
+
+.treament:hover .treament-title {
+  color: white;
+}
+.treament:hover .treament-icon {
+  transform: translateY(-5px);
+}
+
+@media screen and (main-width: 576px) {
+  .treament {
+    float: left;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .treament {
+    width: 20%;
+  }
+}
+
+.treatment img {
+  float: right;
+}
+
+.doctora-t {
+  position: absolute;
+  left: -2px;
+  top: 2420px;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: aquamarine;
+}
+.doctora-1 {
+  float: left;
+  position: relative;
+  left: 164px;
+}
+.doctora-2 {
+  float: right;
+  position: relative;
+  left: -191px;
+}
+
+.doctora-3 {
+  position: relative;
+  left: -1%;
+  right: 50%;
+}
+
+.right {
+  position: absolute;
+  left: 1337px;
+  top: 214px;
+  background-color: white;
+  font-size: 60px;
+}
+
+.lift {
+  position: absolute;
+  left: 116px;
+  top: 214px;
+  background-color: white;
+  font-size: 60px;
+}
+
+.testimonial-title {
+  position: absolute;
+  left: 55px;
+  top: 2940px;
+}
+.fa-quote i {
+  position: absolute;
+  left: 1132px;
+  top: 2px;
+  color: black;
+}
+.testimonial {
+  position: absolute;
+  left: 55px;
+  top: 3050px;
+  width: 1251px;
+  height: 220px;
+  margin: 0px 0px;
+  min-height: 40vh;
+  min-width: 40vh;
+  box-shadow: 5px 5px 10px rgb(91, 85, 85);
+  text-align: left;
+  padding: 10px 10px;
+  margin-left: 95px;
+  animation: head 5s infinite;
+}
+
+.form-get-in {
+  position: absolute;
+  top: 3400px;
+  left: 300px;
+}
+
+.form-get-in img {
+  position: absolute;
+  left: 500px;
+  top: -20px;
+}
+
+.footer {
+  background: rgb(67, 64, 64);
+  position: absolute;
+  left: 1%;
+  top: 3900px;
+  width: 1493px;
+  height: 424px;
+}
+
+.social-icons {
+  color: rgb(209, 221, 220);
+  font-size: 50px;
+  margin-right: 1rem;
+  transition: none;
+}
+
+.nav1 {
+  position: absolute;
+  left: 442px;
+  top: 166px;
+}
+.nav2 {
+  position: absolute;
+  left: 442px;
+  top: 123px;
+  color: white;
+}
+.social-icons {
+  position: absolute;
+  left: 121px;
+  top: 326px;
+
+  font-size: 30px;
+}
+.form3 {
+  position: absolute;
+  left: 441px;
+  top: 28px;
+
+  font-size: 50px;
+}
+
+.adress div {
+  position: absolute;
+  left: 121px;
+  top: 118px;
+  display: inline;
+  margin: 0px 1px;
+  padding: 0px 0px;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.adress {
+  position: absolute;
+  left: 121px;
+  top: 118px;
+  color: white;
+}
+.adress1 {
+  position: absolute;
+  left: 121px;
+  top: 167px;
+}
+.adress2 {
+  position: absolute;
+  left: 121px;
+  top: 217px;
+}
+
+.adress3 {
+  position: absolute;
+  left: 121px;
+  top: 270px;
+}
+
+.footer-text {
+  position: absolute;
+  left: 393px;
+  top: 383px;
+  font-size: 30px;
+  color: white;
+}
+
+.latest {
+  position: absolute;
+  left: 787px;
+  top: 118px;
+  color: white;
+}
+.img1 {
+  position: absolute;
+  left: 807px;
+  top: 163px;
+  font-size: 20px;
+  color: white;
+}
+.news {
+  position: absolute;
+  left: 1071px;
+  top: 118px;
+  color: white;
+}
+
+.img2 {
+  position: absolute;
+  left: 1046px;
+  top: 158px;
+  font-size: 20px;
+  color: white;
+}
+
+.nav {
+  width: 56%;
+  min-width: 600px;
+  height: 12vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1px 318px;
+  background-color: aquamarine;
+}
+
+a {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: aquamarine;
+}
+.nav a {
+  color: white;
+}
+ul li a:hover {
+  color: rgb(19, 80, 142);
+}
+
+ul li a:active {
+  color: rgb(5, 45, 53);
+}
+
+.glass {
+  position: absolute;
+  left: 1250px;
+  top: 99px;
+  color: white;
+}
+.glass i:hover {
+  color: rgb(19, 80, 142);
+}
+.glass i:active {
+  color: rgb(5, 45, 53);
+}
+.logo {
+  position: absolute;
+  left: 170px;
+  top: 70px;
+  background-color: white;
+}
+.logo1 {
+  position: absolute;
+  left: 145px;
+  top: -1px;
+  background-color: white;
+}
+ul{
+
+  list-style-type: none;
+}
